@@ -1,0 +1,11 @@
+frontend/node_modules
+backend/node_modules
+Bridge-Basics/node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
