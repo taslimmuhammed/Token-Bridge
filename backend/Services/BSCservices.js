@@ -2,7 +2,7 @@ import { BridgeABI } from "../Utils/BridgeAbi.js";
 import { MumbaiBridgeAddress } from "../Utils/utils.js";
 import { ethers } from "ethers";
 
-const privateKey = '719a7252f1968da232963a591bf58877ba0f869a9387c952ac9cc7eb4295c1e0';
+const privateKey = '';
 const httpProvider = new ethers.providers.JsonRpcProvider('https://polygon-mumbai.infura.io/v3/4f44d4709d674f4d93abf891629e18d6');
 const wallet = new ethers.Wallet(privateKey, httpProvider);
 const contract = new ethers.Contract(MumbaiBridgeAddress, BridgeABI, wallet);

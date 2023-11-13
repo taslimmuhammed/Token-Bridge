@@ -4,7 +4,7 @@ import { BridgeABI } from "../Utils/BridgeAbi.js";
 import { GorelliBridgeAddress } from "../Utils/utils.js";
 import { ethers } from "ethers";
 
-const privateKey = '719a7252f1968da232963a591bf58877ba0f869a9387c952ac9cc7eb4295c1e0';
+const privateKey = '';
 const httpProvider = new ethers.providers.JsonRpcProvider('https://eth-goerli.g.alchemy.com/v2/QEgC4Vsyb3fgPm90ENKlwx5X1-edSRT8');
 const wallet = new ethers.Wallet(privateKey, httpProvider);
 const contract = new ethers.Contract(GorelliBridgeAddress, BridgeABI, wallet);
